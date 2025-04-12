@@ -1,0 +1,28 @@
+/* Основной контейнер */
+.main-wrapper {
+    background-color: #1E1F21; 
+    border-radius: 13px;
+    overflow: hidden; 
+    max-width: 90%; 
+    box-shadow: 0 0 0 1px #1A1A1A, 0 8px 20px 6px #888;
+    margin: 100px;
+}
+
+/* Оверлей модального окна */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: none;
+  
+    align-items: center;
+    justify-content: center;
+}
+
+/* Класс для отображения модального окна */
+.modal-overlay--open {
+    display: flex;
+}

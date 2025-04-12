@@ -1,0 +1,11 @@
+
+
+
+.styled-main-window {
+    width: auto;
+    height: auto;
+    background-color: #f3f2f8;
+    padding: 20px;
+    border-radius: 15px;
+    align-content: center;
+}
